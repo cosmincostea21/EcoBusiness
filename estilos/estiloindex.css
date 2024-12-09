@@ -83,7 +83,7 @@ article{
     float: left
 }
 
-.imagenflor{
+div.imagenflor{
     height: 100%;
     float: right;
     width: 210px;
@@ -92,7 +92,8 @@ article{
 
 img{
     margin-left: 10px;
-    border-radius: 15px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
     float: right;
     width: 210px;
     height: 100%;
