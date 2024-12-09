@@ -80,6 +80,7 @@ article{
 
 div.texto{
     text-align: justify;
+    overflow: hidden;
     padding: 20px;
 }
 
