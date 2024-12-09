@@ -69,32 +69,28 @@ main h2{
 }
 
 article{
+    object-fit: contain;
     margin-top: 20px;
     height: 50%;
     border: 2px solid rgb(32, 75, 48);
     border-radius: 15px;
+    display: flex;
+
 }
 
-.texto{
+div.texto{
     text-align: justify;
-    width: 75%;
     padding: 20px;
-    clear: right;
-    float: left
 }
 
 div.imagenflor{
     height: 100%;
-    float: right;
-    width: 210px;
     height: 100%;
 }
 
 img{
-    margin-left: 10px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
-    float: right;
     width: 210px;
     height: 100%;
 }
